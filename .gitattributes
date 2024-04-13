@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+dataset/fer.h5 filter=lfs diff=lfs merge=lfs -text
+dataset/fer.json filter=lfs diff=lfs merge=lfs -text
+dataset/fer2013.csv filter=lfs diff=lfs merge=lfs -text
+Models_face_detection_xml/EmotionXCeption/video.h5 filter=lfs diff=lfs merge=lfs -text
+Models_face_detection_xml/FaceDetect/haarcascade_frontalface_default.xml filter=lfs diff=lfs merge=lfs -text
+Models_face_detection_xml/Landmarks/face_landmarks.dat filter=lfs diff=lfs merge=lfs -text
